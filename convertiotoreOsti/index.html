@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aiuro</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+</head>
+
+<body onload="converti()">
+    
+    <h1 class="titolo">CONVERTITORE DI VALUTA</h1>
+
+    <button class="darkButton" onclick="darkmode()">darkmode</button>
+
+    <div class="my-5">
+        <h1>Euro</h1>
+        <img class="flag" src="./images/Flag_of_Europe.svg">
+        <form>
+            <input oninput="converti()" id="input" type="number" placeholder="Inserisci €">
+        </form>
+    </div>
+
+    <div class="flexbox my-5">
+        <div>
+            <h1>Peso argentino</h1>
+            <img class="flag" src="./images/Flag_of_Argentina.svg">
+            <p id="valuta1"></p>
+        </div>
+        <div>
+            <h1>Franco del burundi</h1>
+            <img class="flag" src="./images/Flag_of_Burundi.svg">
+            <p id="valuta2"></p>
+        </div>
+        <div>
+            <h1>Ariary malgascio</h1>
+            <img class="flag" src="./images/Flag_of_Madagascar.svg.webp">
+            <p id="valuta3"></p>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

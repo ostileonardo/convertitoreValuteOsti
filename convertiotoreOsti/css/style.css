@@ -1,0 +1,38 @@
+body{
+    text-align: center !important;
+    background-color: whitesmoke !important;
+    transition: 1s;
+}
+
+.titolo{
+    font-size: 100px;
+}
+
+.flag{
+    width: 10vw;
+    margin: 3vh 0;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.darkButton{
+    border: none;
+    border-radius: 3px;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.darkButton:hover{
+    transition: 1s;
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+}
+
+.darkmode{
+    background-color: black !important;
+    color: white;
+}
